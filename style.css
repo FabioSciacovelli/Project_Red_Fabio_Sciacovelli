@@ -1,0 +1,30 @@
+.Logo{
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+main{
+    width: 100%;
+    background-size: cover;
+    background:
+    linear-gradient( 
+        rgb(255, 253, 253),
+        rgba(255, 255, 255, 0.171)
+    ),
+    url(./media/switzerland-862870_1920.jpg);
+    
+}
+
+.montagna{
+    width: 100%;
+
+}
