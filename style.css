@@ -1,3 +1,8 @@
+body{
+    background-color: violet;
+}
+
+
 .Logo{
     height: 50px;
     margin-top: 5px;
@@ -10,12 +15,18 @@ nav{
     background-color: white;
 }
 
-
+h1{
+    top: 25vh;
+}
 
 main{
+   
     width: 100%;
     background-size: cover;
-    background:
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-image: 
     linear-gradient( 
         rgb(255, 253, 253),
         rgba(255, 255, 255, 0.171)
@@ -24,7 +35,52 @@ main{
     
 }
 
+#cit{
+    width: 600px;
+}
+
+.cit2{
+    width: 685px;
+}
+
 .montagna{
     width: 100%;
+}
 
+.button{
+    width: 150px;
+    height: 30px;
+    background-color: brown;
+    position: relative;
+    top: 150px;
+}
+
+.alt-button{
+    height: 480px;
+    background-image: url(/progettoRed---Alvise-Masenello-Davide-Pescatori-Fabio-Sciacovelli-Pasquale-Macera-Matteo/media/trees2.png);
+}
+
+.li1{
+    width: 500px;
+}
+
+.timeline{
+    background-image: url(/progettoRed---Alvise-Masenello-Davide-Pescatori-Fabio-Sciacovelli-Pasquale-Macera-Matteo/media/single.png);
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.img-team{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    outline: 3px solid red;
+    border: 6px solid transparent;
+}
+
+.grand{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
