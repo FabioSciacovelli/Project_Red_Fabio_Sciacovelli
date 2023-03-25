@@ -1,3 +1,5 @@
+
+
 body{
     background-color: rgb(236, 236, 236);
     font-family: 'Rajdhani', sans-serif;
@@ -5,19 +7,24 @@ body{
 
 
 .Logo{
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
-nav{
-    height: 100px;
-    width: 100%;
-    background-color: white;
+a{
+    text-decoration: none;
+    color: black;
 }
+
+.logo2{
+    width: 50px;
+}
+
 
 h1{
-    top: 25vh;
+    position: ;
+    top: ;
     font-family: 'Nova Square';
     color: #890403;
 }
@@ -32,7 +39,6 @@ h4{
 }
 
 main{
-   
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,55 +53,48 @@ main{
     
 }
 
-ul {
-    list-style: none; /* rimuove il bullet point predefinito */
-    margin: 0; /* rimuove il margine esterno dell'elenco */
-    padding: 0; /* rimuove il padding dell'elenco */
+.ul1 {
+    list-style: none;
   }
   
-li {
-    margin: 10px 0; /* imposta il margine superiore e inferiore di ogni elemento dell'elenco */
-    padding: 0 0 0 30px; /* imposta il padding a sinistra di ogni elemento dell'elenco */
-    line-height: 1.5; /* imposta l'altezza della riga dell'elemento dell'elenco */
-    position: relative; /* rende l'elemento dell'elenco un elemento di posizione relativa */
+.li1 {
+    padding-left: 30px;
+    position: relative;
   }
   
-li:before {
-    content: ""; /* aggiunge un contenuto vuoto all'elemento prima del testo */
-    display: block; /* rende l'elemento un blocco */
-    width: 16px; /* imposta la larghezza del cerchio */
-    height: 16px; /* imposta l'altezza del cerchio */
+.li1:before {
+    content: "";
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
-    border: 3px solid blue;
-    background-color: #890403;
-    position: absolute; /* rende il cerchio un elemento di posizione assoluta rispetto all'elemento dell'elenco */
-    top: 8px; /* posiziona il cerchio al centro dell'altezza dell'elemento dell'elenco */
-    left: 0; /* posiziona il cerchio all'inizio dell'elemento dell'elenco */
-    transform: translateX(-50%); /* centra il cerchio orizzontalmente */
+    border: 3px solid #890403;
+    background-color:white;
+    position: absolute;
+    top: 8px;
+    left: 0;
   }
-  
-
-
 
 #cit{
     width: 600px;
 }
 
 .line{
-    color: #890403;
+    color: #890303;
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-width: 4px;
 }
 
-.cit2{
-    width: 685px;
-}
+/* .cit2{
+    max-width: 50%;
+} */
 
 .montagna{
-    width: 100%;
+    max-width: 100%;
 }
+
 
 .button{
     width: 150px;
@@ -116,7 +115,7 @@ li:before {
 }
 
 .li1{
-    width: 500px;
+    max-width: 100%;
 }
 
 .timeline{
@@ -125,6 +124,7 @@ li:before {
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 40vw;
+    max-width: 100%;
 }
 
 .img-team{
@@ -142,3 +142,20 @@ li:before {
     outline: 3px solid red;
     border: 6px solid transparent;
 }
+
+.trees{
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+footer{
+    background-color: #890403;
+    color: white;
+}
+
+.footer-color {
+    color: white;
+}
+
