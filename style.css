@@ -1,5 +1,6 @@
 body{
-    background-color: violet;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
@@ -17,6 +18,17 @@ nav{
 
 h1{
     top: 25vh;
+    font-family: 'Nova Square';
+    color: #890403;
+}
+
+h2{
+    font-family: 'Nova Square';
+    color: #890403;
+}
+
+h4{
+    color: #890403;    
 }
 
 main{
@@ -35,8 +47,46 @@ main{
     
 }
 
+ul {
+    list-style: none; /* rimuove il bullet point predefinito */
+    margin: 0; /* rimuove il margine esterno dell'elenco */
+    padding: 0; /* rimuove il padding dell'elenco */
+  }
+  
+li {
+    margin: 10px 0; /* imposta il margine superiore e inferiore di ogni elemento dell'elenco */
+    padding: 0 0 0 30px; /* imposta il padding a sinistra di ogni elemento dell'elenco */
+    line-height: 1.5; /* imposta l'altezza della riga dell'elemento dell'elenco */
+    position: relative; /* rende l'elemento dell'elenco un elemento di posizione relativa */
+  }
+  
+li:before {
+    content: ""; /* aggiunge un contenuto vuoto all'elemento prima del testo */
+    display: block; /* rende l'elemento un blocco */
+    width: 16px; /* imposta la larghezza del cerchio */
+    height: 16px; /* imposta l'altezza del cerchio */
+    border-radius: 50%;
+    border: 3px solid blue;
+    background-color: #890403;
+    position: absolute; /* rende il cerchio un elemento di posizione assoluta rispetto all'elemento dell'elenco */
+    top: 8px; /* posiziona il cerchio al centro dell'altezza dell'elemento dell'elenco */
+    left: 0; /* posiziona il cerchio all'inizio dell'elemento dell'elenco */
+    transform: translateX(-50%); /* centra il cerchio orizzontalmente */
+  }
+  
+
+
+
 #cit{
     width: 600px;
+}
+
+.line{
+    color: #890403;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cit2{
@@ -53,6 +103,11 @@ main{
     background-color: brown;
     position: relative;
     top: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
 }
 
 .alt-button{
@@ -66,9 +121,10 @@ main{
 
 .timeline{
     background-image: url(/media/single.png);
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-size: 40vw;
 }
 
 .img-team{
@@ -80,7 +136,9 @@ main{
 }
 
 .grand{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    outline: 3px solid red;
+    border: 6px solid transparent;
 }
