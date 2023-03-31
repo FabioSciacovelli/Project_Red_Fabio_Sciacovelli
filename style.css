@@ -190,7 +190,6 @@ footer{
     font-family: 'Nova Square';
     position: absolute;
     left: 15px;
-    /* background-color: aqua; */
     top: -10px;
 }
 
@@ -200,11 +199,10 @@ footer{
     top: 55px;
     color: #890403;
     font-family: 'Nova Square';
-    /* background-color: blue; */
 }
 
 .linea{
-    height: 290px;
+    height: 320px;
     border-left: #890403 solid 3px;
     position: absolute;
     top: 10px;
