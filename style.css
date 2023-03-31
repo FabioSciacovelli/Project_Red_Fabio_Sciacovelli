@@ -5,6 +5,21 @@ body{
     font-family: 'Rajdhani', sans-serif;
 }
 
+.border-line {
+    border-bottom: 3px solid #890403;
+}
+
+.circle{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px #890403 solid;
+    position: relative;
+    top: -25px;
+}
+
+
 
 .Logo{
     height: 100px;
@@ -21,13 +36,14 @@ a{
     width: 50px;
 }
 
-
 h1{
     font-family: 'Nova Square';
     color: #890403;
     letter-spacing: 40px;
+    position: absolute;
     margin-right: -40px;
 }
+
 
 h2{
     font-family: 'Nova Square';
@@ -40,7 +56,8 @@ h4{
 
 main{
     width: 100%;
-    height: 100vh;
+    height: 60vh; 
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,8 +67,15 @@ main{
         rgb(255, 253, 253),
         rgba(255, 255, 255, 0.171)
     ),
-    url(./media/mountains2.png), url(./media/switzerland-862870_1920.jpg);
+     url(./media/switzerland-862870_1920.jpg);
     
+}
+
+.montagne{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 .ul1 {
@@ -71,8 +95,10 @@ main{
     border: 3px solid #890403;
     background-color:white;
     position: absolute;
-    top: 8px;
+    top: 30px;
     left: 0;
+    z-index: 2;
+
   }
 
 #cit{
@@ -97,17 +123,10 @@ main{
     max-width: 100%;
 }
 
-
 .button{
     width: 150px;
     height: 30px;
-    background-color: brown;
-    position: relative;
-    top: 150px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+    background-color: #890403;
     color: white;
 }
 
@@ -133,16 +152,34 @@ main{
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    outline: 3px solid red;
+    outline: 3px solid #890403;
     border: 6px solid transparent;
 }
 
+
+
+h6, h5, h4, h3, h1{
+    font-family: 'Nova Square';
+    color: #890403;
+}
+
+.h4-2{
+    color: white;
+}
+
+.logo-social{
+
+    width: 20px;
+    height: 20px;
+
+}
+
 .grand{
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    outline: 3px solid red;
-    border: 6px solid transparent;
+    outline: 3px solid #890403;
+    border: 5px solid transparent;
 }
 
 .trees{
@@ -161,14 +198,37 @@ footer{
     color: white;
 }
 
-h3{
-    color: #890403;
-    font-family: 'Nova Square';
-}
 
 .virgolette{
     color: #890403;
     font-family: 'Nova Square';
-
+    position: absolute;
+    left: 15px;
+    top: -10px;
 }
 
+.virgolette2{
+    position: absolute;
+    right: 110px;
+    top: 55px;
+    color: #890403;
+    font-family: 'Nova Square';
+}
+
+.linea{
+    height: 320px;
+    border-left: #890403 solid 3px;
+    position: absolute;
+    top: 10px;
+    left: -23px;
+    z-index: 1;
+}
+
+.linea2{
+    height: 120px;
+    border-left: #890403 solid 3px;
+    position: absolute;
+    top: 10px;
+    left: -23px;
+    z-index: 1;
+}
