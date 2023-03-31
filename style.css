@@ -41,14 +41,9 @@ h1{
     color: #890403;
     letter-spacing: 40px;
     position: absolute;
+    margin-right: -40px;
 }
 
-
-
-/* .h1-container{
-    height: 50vh;
-    background-color: violet;
-} */
 
 h2{
     font-family: 'Nova Square';
@@ -72,7 +67,6 @@ main{
         rgb(255, 253, 253),
         rgba(255, 255, 255, 0.171)
     ),
-    /* url(./media/mountains2.png), */
      url(./media/switzerland-862870_1920.jpg);
     
 }
@@ -194,15 +188,19 @@ footer{
 .virgolette{
     color: #890403;
     font-family: 'Nova Square';
+    position: absolute;
+    left: 15px;
+    /* background-color: aqua; */
+    top: -10px;
 }
 
 .virgolette2{
     position: absolute;
-    top:80px
-}
-
-.timeline-section{
-    /* background-color: aqua; */
+    right: 110px;
+    top: 55px;
+    color: #890403;
+    font-family: 'Nova Square';
+    /* background-color: blue; */
 }
 
 .linea{
